@@ -1,6 +1,7 @@
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
+import { ErrorMessage } from '@hookform/error-message'
 import React from 'react'
 import { FieldErrors, FieldValues, UseFormRegister } from 'react-hook-form'
 
@@ -116,6 +117,7 @@ const FormGenerator = ({
             </Label>
           )
           defualt: return <></>
+    }
 }
 
 export default FormGenerator
